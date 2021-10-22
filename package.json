@@ -19,6 +19,11 @@
   "homepage": "https://github.com/cgu2020/carpool-server#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "firebase": "^9.1.3"
+    "firebase": "^9.1.3",
+    "firebase-admin": "^10.0.0",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.4"
   }
 }
