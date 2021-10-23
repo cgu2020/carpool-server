@@ -1,22 +1,14 @@
-export type ride = {
-  id: number,
+export type Ride = {
+  id: string,
   destination: string,
   departureMonth: number,
   departureDay: number,
   departureYear: number,
-  return : returnRide,
-  description: string,
-  compensation: compensation
-
-}
-
-export type returnRide = {
   returnMonth: number,
   returnDay: number,
   returnYear: number,
-}
-
-export type compensation = {
+  description: string,
   service: string,
   cash: number
+
 }
