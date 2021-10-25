@@ -1,14 +1,24 @@
+import admin from "firebase-admin"
+
 export type Ride = {
   id: string,
-  destination: string,
+  from: string,
+  to: string,
   departureMonth: number,
   departureDay: number,
-  departureYear: number,
-  returnMonth: number,
-  returnDay: number,
-  returnYear: number,
   description: string,
-  service: string,
-  cash: number
+  user_id: string,
+  name: string
+}
 
+export type user = {
+  id: string, 
+  name: string,
+  email: string,
+  phoneNumber: string
+}
+
+export type request = {
+  user: user,
+  time: number
 }
